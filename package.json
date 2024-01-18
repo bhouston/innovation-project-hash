@@ -1,6 +1,6 @@
 {
-  "name": "template-typescript-monorepo",
-  "version": "1.4.8",
+  "name": "innovation-project-hash",
+  "version": "0.0.1",
   "private": true,
   "description": "",
   "type": "module",
@@ -14,8 +14,7 @@
     "lint": "nx run-many --target=lint --all",
     "format": "nx run-many --target=format --all",
     "test": "nx run-many --target=test --all",
-    "publish": "nx run-many --target=build,test --all && lerna publish --no-private",
-    "gcloud-setup": "gcloud auth application-default login && gcloud config set project bhouston-general-hosting && gcloud config set run/region us-central1"
+    "publish": "nx run-many --target=build,test --all && lerna publish --no-private"
   },
   "keywords": [],
   "author": "",
@@ -52,6 +51,8 @@
     "typescript": ">=5.2.2"
   },
   "dependencies": {
+    "glob": "^10.3.10",
+    "simple-git": "^3.22.0",
     "source-map-support": "^0.5.21"
   },
   "engines": {
