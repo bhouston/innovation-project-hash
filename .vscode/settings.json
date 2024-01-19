@@ -13,6 +13,7 @@
     "healthcheck",
     "interruptible",
     "lerp",
+    "merkle",
     "microbundle",
     "Nullary",
     "reactflow",
